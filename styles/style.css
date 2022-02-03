@@ -1,0 +1,13 @@
+*, html {
+  margin: 0;
+  background-color: #272727;
+  color: #ebd222;
+  font-family: monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100vh;
+}
