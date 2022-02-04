@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Weather</title>
+    <title>What's the weather, yo?</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles/style.css" rel="stylesheet">
@@ -9,12 +9,64 @@
   </head>
   <body>
 
-    <div>
-      <h1 id="city">City</h1>
+    <!-- 1 -->
+    <div class="search-form">
+
+      <div class="header">
+        <h3>Why did I make this</h3>
+      </div>
+
+      <form action="#" id="searchForm">
+        <label for="">Search City : </label>
+        <input type="name" name="city" value="" id="cityName" placeholder="city" required>
+      </form>
+
+      <div class="header">
+        <h3>What's the weather?</h3>
+      </div>
+
     </div>
 
-    <div>
-      <h2 id="temp">Temperature</h2>
+    <!-- 2 -->
+    <div class="weather-container">
+      <div>
+        <div class="loading">
+          Loading...
+        </div>
+
+        <div class="container">
+          <div>
+            <h1 id="city">City</h1>
+          </div>
+
+          <div>
+            <h3 id="desc">Desc</h3>
+          </div>
+
+          <div class="temps">
+
+            <h2 id="temp">Temperature</h2>
+
+            <div class="divide">
+              <p>Feels like: <span id="feelslike"></span></p>
+              <p>Today's high: <span id="todayshigh"></span></p>
+              <p>Humidity: <span id="humidity"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div>
+        <img alt="weather illustration" id="weatherImg">
+      </div>
+
+    </div>
+
+    <!-- 3 -->
+    <div class="footer">
+      <h1>LEL</h1>
     </div>
 
   </body>
