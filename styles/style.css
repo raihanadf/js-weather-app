@@ -50,8 +50,8 @@ input {
   width: 24vh;
   background: none;
   color: #A91079;
-  border: none;
-  border-bottom: 1px solid #A91079;
+  border: 1px solid #A91079;
+  border-radius: 5px;
   text-align: center;
 }
 
