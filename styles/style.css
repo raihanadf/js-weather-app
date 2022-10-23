@@ -9,8 +9,8 @@ body {
   width: auto;
   height: 100vh;
   gap: 20em;
-  background-color: #111111;
-  color: #ebd222;
+  background-color: #2E0249;
+  color: #F806CC;
 }
 
 .search-form {
@@ -49,9 +49,9 @@ body {
 input {
   width: 24vh;
   background: none;
-  color: #ebd222;
+  color: #A91079;
   border: none;
-  border-bottom: 1px solid #ebd222;
+  border-bottom: 1px solid #A91079;
   text-align: center;
 }
 
